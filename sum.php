@@ -7,12 +7,11 @@ function sum(){
     return $result;
 }
 echo sum();
-?>
+echo "\n";
 
 
 
-<?php 
-function sum($max) {
+function sum01($max) {
     $result = 0;
     for($i = 1; $i <= $max; $i++){
         $result += $i;
@@ -21,6 +20,7 @@ function sum($max) {
     return $result;
 }
 
-echo sum(100);
+echo sum01(100);
+echo "\n";
 ?>
 

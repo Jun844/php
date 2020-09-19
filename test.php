@@ -24,7 +24,7 @@ echo "\n";
 $fruits = array("apple", "peach" , "orange" , "kiwi" , "mango") ;
 foreach($fruits as $fruit) { 
     echo "要素は" . $fruit;
-    echo "\n";
+  
 }
 
 
